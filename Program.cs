@@ -17,39 +17,36 @@ pessoa1.Idade = 21;
 pessoa1.Apresentar();
 */
 
-
-
 // TiposDados.MostrarDados();
 
-
-
-// //Conversão de Tipos
+// Conversão de Tipos
 // string a = "15-";
 // int.TryParse(a, out int b);
 // Console.WriteLine(b);
 
-
-
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
 // OperadoresCondicionais.SwitchCase(100);
-
-
 
 //Operadores Lógicos
 // OperadoresLogicos.Or(17, true);
 // OperadoresLogicos.And(1, true);
 // OperadoresLogicos.Not(true);
 
+// Estruturas de Repetição
+// EstruturasRepeticao.For(4);
+// EstruturasRepeticao.While();
+// EstruturasRepeticao.DoWhile();
 
+
+// EXERCÍCIOS
+
+// Exercicio Calculadora
 // Calculadora.Calcular(10, 12, "pow");
 // Calculadora.Seno(45);
 // Calculadora.Cosseno(45);
 // Calculadora.Tangente(45);
 // Calculadora.RaizQuadrada(9.3);
 
-// EstruturasRepeticao.For(4);
-// EstruturasRepeticao.While();
-// EstruturasRepeticao.DoWhile();
-
+// Exercicio Menu Interativo com loops
 // MenuInterativo.Menu();
