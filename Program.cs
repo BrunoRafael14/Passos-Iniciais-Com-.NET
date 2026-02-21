@@ -38,6 +38,11 @@ pessoa1.Apresentar();
 // EstruturasRepeticao.While();
 // EstruturasRepeticao.DoWhile();
 
+// Estrutura de Dados
+// -- Arrays --
+// Arrays.Array();
+// Arrays.PercorrendoArray();
+
 
 // EXERCÍCIOS
 
@@ -50,3 +55,5 @@ pessoa1.Apresentar();
 
 // Exercicio Menu Interativo com loops
 // MenuInterativo.Menu();
+
+
