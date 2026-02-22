@@ -40,9 +40,10 @@ pessoa1.Apresentar();
 
 // Estrutura de Dados
 // -- Arrays --
-// Arrays.Array();
-// Arrays.PercorrendoArray();
+// AprendendoArrays.Arrays.Array();
+// AprendendoArrays.Arrays.PercorrendoArray();
 // AprendendoArrays.AuterandoQuantidadeArray();
+// AprendendoArrays.CopiandoArray();
 
 
 // EXERCÍCIOS

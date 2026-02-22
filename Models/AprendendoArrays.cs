@@ -35,5 +35,14 @@ namespace Passos_iniciais_com_.NET.Models
             System.Array.Resize(ref arrayNumeros, arrayNumeros.Length + 3);
             Console.WriteLine(String.Join(", ", arrayNumeros));
         }
+
+        public static void CopiandoArray()
+        {
+            int[] arrayNumeros = new int[] {14, 13, 22};
+            int[] arrayCopia = new int[arrayNumeros.Length];
+            System.Array.Copy(arrayNumeros, arrayCopia, 3);
+
+            Console.WriteLine(String.Join(",", arrayCopia));
+        }
     }
 }
