@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Passos_iniciais_com_.NET.Models
 {
-    public class Arrays
+    public class AprendendoArrays
     {
         public static void Array()
         {
@@ -28,7 +28,12 @@ namespace Passos_iniciais_com_.NET.Models
 
         public static void AuterandoQuantidadeArray()
         {
+            int[] arrayNumeros = new int[] {14, 13, 22};
+            Console.WriteLine(String.Join(", ", arrayNumeros));
 
+
+            System.Array.Resize(ref arrayNumeros, arrayNumeros.Length + 3);
+            Console.WriteLine(String.Join(", ", arrayNumeros));
         }
     }
 }

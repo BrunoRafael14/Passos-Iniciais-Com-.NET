@@ -42,7 +42,7 @@ pessoa1.Apresentar();
 // -- Arrays --
 // Arrays.Array();
 // Arrays.PercorrendoArray();
-Arrays.AuterandoQuantidadeArray();
+// AprendendoArrays.AuterandoQuantidadeArray();
 
 
 // EXERCÍCIOS
