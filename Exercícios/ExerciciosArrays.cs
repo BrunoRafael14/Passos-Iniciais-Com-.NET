@@ -17,7 +17,7 @@ namespace Passos_iniciais_com_.NET.Exercícios
             {
                 Console.Write("Informe os dados que quer adicionar no array: ");
                 string? dadosArray = Console.ReadLine();
-                array[cont] = dadosArray;
+                array[cont] = dadosArray ?? "Vázio";
             }
 
             Console.WriteLine(String.Join(",",array));

@@ -45,6 +45,11 @@ pessoa1.Apresentar();
 // AprendendoArrays.AuterandoQuantidadeArray();
 // AprendendoArrays.CopiandoArray();
 
+// -- Listas --
+//AprendendoListas.FazendoUmaLista();
+
+// -- Matrizes --
+AprendendoMatrizes.CriandoMatrizBidimensional();
 
 // EXERCÍCIOS
 
