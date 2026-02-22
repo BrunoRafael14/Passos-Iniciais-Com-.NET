@@ -25,5 +25,10 @@ namespace Passos_iniciais_com_.NET.Models
                 Console.WriteLine(nome);
             }
         }
+
+        public static void AuterandoQuantidadeArray()
+        {
+
+        }
     }
 }

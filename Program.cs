@@ -42,6 +42,7 @@ pessoa1.Apresentar();
 // -- Arrays --
 // Arrays.Array();
 // Arrays.PercorrendoArray();
+Arrays.AuterandoQuantidadeArray();
 
 
 // EXERCÍCIOS
@@ -56,4 +57,6 @@ pessoa1.Apresentar();
 // Exercicio Menu Interativo com loops
 // MenuInterativo.Menu();
 
+// Exercicio com Arrays
+// ExerciciosArrays.ArmazemDeInfomacoes();
 
