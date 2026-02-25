@@ -49,7 +49,13 @@ pessoa1.Apresentar();
 //AprendendoListas.FazendoUmaLista();
 
 // -- Matrizes --
-AprendendoMatrizes.CriandoMatrizBidimensional();
+//AprendendoMatrizes.CriandoMatrizBidimensional();
+
+// Propriedades, Métodos e Construtores
+// AprendendoPropriedadesEMetodos teste01 = new AprendendoPropriedadesEMetodos();
+// teste01.NomePropriedade = "Xablauscledio";
+// teste01.NumeroPropriedade = 14;
+// teste01.ApresentarPropriedades();
 
 // EXERCÍCIOS
 
