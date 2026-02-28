@@ -17,9 +17,10 @@ namespace Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos
             Console.WriteLine($"{aluno.Nome} foi adicionado(a) a Turma de {Nome}");
         }
 
-        public void RemoverAluno()
+        public void RemoverAluno(Aluno aluno)
         {
-            
+            Alunos.Remove(aluno);
+            Console.WriteLine("Aluno Removido");
         }
 
         public void PuxarInformacoesTurma()

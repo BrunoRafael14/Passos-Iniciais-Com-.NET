@@ -53,11 +53,15 @@ pessoa1.Apresentar();
 //AprendendoMatrizes.CriandoMatrizBidimensional();
 
 // Propriedades, Métodos e Construtores
+// ----- Propriedades e Metodos -----
 // AprendendoPropriedadesEMetodos teste01 = new AprendendoPropriedadesEMetodos();
 // teste01.NomePropriedade = "Xablauscledio";
 // teste01.SobrenomePropriedade = "Da Silva";
 // teste01.NumeroPropriedade = 14;
 // teste01.ApresentarPropriedades();
+// ----- Construtores -----
+// AprendendoConstrutores ap1 = new AprendendoConstrutores("Bruno", 14);
+// ap1.ApresentarInformacoes();
 
 // EXERCÍCIOS
 
@@ -76,21 +80,22 @@ pessoa1.Apresentar();
 
 // Exercícios com métodos e propriedades
 // ----- Cadastro De Alunos -----
-Aluno aluno1 = new Aluno();
-aluno1.Nome = "Alvin";
-aluno1.Idade = 15;
-aluno1.PuxarDadosAluno();
+// Aluno aluno1 = new Aluno();
+// aluno1.Nome = "Alvin";
+// aluno1.Idade = 15;
+// aluno1.PuxarDadosAluno();
 
-Aluno aluno2 = new Aluno();
-aluno2.Nome = "Jordan";
-aluno2.Idade = 18;
-aluno2.PuxarDadosAluno();
+// Aluno aluno2 = new Aluno();
+// aluno2.Nome = "Jordan";
+// aluno2.Idade = 18;
+// aluno2.PuxarDadosAluno();
 
-Turma turma1 = new Turma();
-turma1.Nome = "Filosofia";
+// Turma turma1 = new Turma();
+// turma1.Nome = "Filosofia";
 
-turma1.AdicionarAluno(aluno1);
-turma1.AdicionarAluno(aluno2);
-turma1.PuxarInformacoesTurma();
+// turma1.AdicionarAluno(aluno1);
+// turma1.AdicionarAluno(aluno2);
+// turma1.PuxarInformacoesTurma();
 
-aluno1.PuxarDadosAluno();
+// aluno1.PuxarDadosAluno();
+
