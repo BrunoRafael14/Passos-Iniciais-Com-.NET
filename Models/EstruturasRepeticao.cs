@@ -28,7 +28,7 @@ namespace Passos_iniciais_com_.NET.Models
         public static void DoWhile()
         {
             int quantidadeProdutosCarrinho = 0, quantidadeAdicionarCarrinho = 0;
-            string resposta;
+            string? resposta;
 
             do
             {

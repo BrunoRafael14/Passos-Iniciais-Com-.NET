@@ -9,6 +9,8 @@ namespace Passos_iniciais_com_.NET.Models
     {
         // Criando uma propriedade de teste
         public string? NomePropriedade { get; set;}
+        public string? SobrenomePropriedade {get;set;}
+        public string? NomeCompleto => $"{NomePropriedade} {SobrenomePropriedade}".ToUpper();
         // Fazendo validação do get e set
         private int _numeroPropriedade;
         public int NumeroPropriedade 
@@ -31,7 +33,7 @@ namespace Passos_iniciais_com_.NET.Models
 
         public void ApresentarPropriedades()
         {
-            Console.WriteLine($"{NomePropriedade} e {NumeroPropriedade}");
+            Console.WriteLine($"{NomeCompleto} e {NumeroPropriedade}");
         }
     }
 }

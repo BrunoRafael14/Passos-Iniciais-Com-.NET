@@ -52,10 +52,11 @@ pessoa1.Apresentar();
 //AprendendoMatrizes.CriandoMatrizBidimensional();
 
 // Propriedades, Métodos e Construtores
-// AprendendoPropriedadesEMetodos teste01 = new AprendendoPropriedadesEMetodos();
-// teste01.NomePropriedade = "Xablauscledio";
-// teste01.NumeroPropriedade = 14;
-// teste01.ApresentarPropriedades();
+AprendendoPropriedadesEMetodos teste01 = new AprendendoPropriedadesEMetodos();
+teste01.NomePropriedade = "Xablauscledio";
+teste01.SobrenomePropriedade = "Da Silva";
+teste01.NumeroPropriedade = 14;
+teste01.ApresentarPropriedades();
 
 // EXERCÍCIOS
 
