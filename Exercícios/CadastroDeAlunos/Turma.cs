@@ -13,6 +13,7 @@ namespace Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos
         public void AdicionarAluno(Aluno aluno)
         {
             Alunos.Add(aluno);
+            aluno.TurmaAluno = Nome;
             Console.WriteLine($"{aluno.Nome} foi adicionado(a) a Turma de {Nome}");
         }
 

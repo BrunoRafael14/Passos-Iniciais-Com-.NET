@@ -92,3 +92,5 @@ turma1.Nome = "Filosofia";
 turma1.AdicionarAluno(aluno1);
 turma1.AdicionarAluno(aluno2);
 turma1.PuxarInformacoesTurma();
+
+aluno1.PuxarDadosAluno();

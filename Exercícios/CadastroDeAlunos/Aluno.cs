@@ -9,10 +9,11 @@ namespace Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos
     {
         public string? Nome { get; set; }
         public int Idade { get; set; }
+        public string? TurmaAluno {get; set;}
 
         public void PuxarDadosAluno()
         {
-            Console.WriteLine($"Nome: {Nome} \nIdade: {Idade}");
+            Console.WriteLine($"Nome: {Nome} \nIdade: {Idade} \n Turma: {TurmaAluno}");
         }
     }
 }
