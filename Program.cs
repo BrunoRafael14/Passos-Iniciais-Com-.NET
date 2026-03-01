@@ -63,6 +63,11 @@ pessoa1.Apresentar();
 // AprendendoConstrutores ap1 = new AprendendoConstrutores("Bruno", 14);
 // ap1.ApresentarInformacoes();
 
+// Manipulação de Strings
+// ----- Concatenação -----
+ManipulacaoStrings.Concatenacao();
+ManipulacaoStrings.Interpolacao();
+
 // EXERCÍCIOS
 
 // Exercicio Calculadora
