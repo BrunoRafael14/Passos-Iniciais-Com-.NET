@@ -65,8 +65,9 @@ pessoa1.Apresentar();
 
 // Manipulação de Strings
 // ----- Concatenação -----
-ManipulacaoStrings.Concatenacao();
-ManipulacaoStrings.Interpolacao();
+// ManipulacaoStrings.Concatenacao();
+// ManipulacaoStrings.Interpolacao();
+// Formatacoes.ValoresMonetarios();
 
 // EXERCÍCIOS
 
