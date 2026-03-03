@@ -69,6 +69,9 @@ pessoa1.Apresentar();
 // ManipulacaoStrings.Interpolacao();
 // Formatacoes.ValoresMonetarios();
 
+// Leitura de Arquivos
+LeituraDeArquivos.LendoArquivo();
+
 // EXERCÍCIOS
 
 // Exercicio Calculadora

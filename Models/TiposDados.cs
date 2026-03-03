@@ -33,7 +33,7 @@ namespace Passos_iniciais_com_.NET.Models
 
             // Tipos de Dados: DateTime
             DateTime agora = DateTime.Now.AddDays(15);
-            Console.WriteLine(agora);
+            Console.WriteLine(agora.ToString("dd/MM/yyyy HH:mm"));
         }
 
         public static void Conversao()
