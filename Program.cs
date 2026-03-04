@@ -70,7 +70,8 @@ pessoa1.Apresentar();
 // Formatacoes.ValoresMonetarios();
 
 // Leitura de Arquivos
-LeituraDeArquivos.LendoArquivo();
+// LeituraDeArquivos.LendoArquivo();
+LeituraDeArquivos.VendoThrow2();
 
 // EXERCÍCIOS
 

@@ -37,5 +37,18 @@ namespace Passos_iniciais_com_.NET.Models
                 Console.WriteLine("Finalmente terminou");
             }
         }
+
+        public static void VendoThrow1()
+        {
+            throw new Exception("Testando Throw");
+        }
+        public static void VendoThrow2()
+        {
+            VendoThrow3();
+        }
+        public static void VendoThrow3()
+        {
+            VendoThrow1();
+        }
     }
 }
