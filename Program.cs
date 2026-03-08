@@ -71,7 +71,10 @@ pessoa1.Apresentar();
 
 // Leitura de Arquivos
 // LeituraDeArquivos.LendoArquivo();
-LeituraDeArquivos.VendoThrow2();
+// LeituraDeArquivos.VendoThrow2();
+
+// Queue e Stack
+// AprendoFilasEPilhas.Filas();
 
 // EXERCÍCIOS
 
