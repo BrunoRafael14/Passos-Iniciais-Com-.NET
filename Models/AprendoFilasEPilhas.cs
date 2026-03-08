@@ -26,7 +26,15 @@ namespace Passos_iniciais_com_.NET.Models
 
         public static void Pilhas()
         {
-            
+            Stack<int> pilha = new Stack<int>();
+
+            pilha.Push(4);
+            pilha.Push(14);
+            pilha.Push(42);
+            pilha.Push(32);
+            pilha.Push(23);
+
+            Console.WriteLine(String.Join(",", pilha));
         }
     }
 }
