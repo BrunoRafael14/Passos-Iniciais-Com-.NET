@@ -75,7 +75,10 @@ pessoa1.Apresentar();
 
 // Queue e Stack
 // AprendoFilasEPilhas.Filas();
-AprendoFilasEPilhas.Pilhas();
+// AprendoFilasEPilhas.Pilhas();
+
+// Dicionarios
+// AprendendoDicionarios.Dicionarios();
 
 // EXERCÍCIOS
 
