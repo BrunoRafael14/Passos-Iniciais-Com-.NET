@@ -1,6 +1,7 @@
 ﻿using Passos_iniciais_com_.NET.Models;
 using Passos_iniciais_com_.NET.Exercícios;
 using Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos;
+using Passos_iniciais_com_.NET.Models.POO;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -79,6 +80,21 @@ pessoa1.Apresentar();
 
 // Dicionarios
 // AprendendoDicionarios.Dicionarios();
+
+// ----- Poo -----
+// Abstração
+/*
+AprendendoAbstracao P1 = new AprendendoAbstracao();
+P1.Nome = "Alexiano";
+P1.Numero = 14;
+P1.Apresentar();
+*/
+
+// Encapsulamento
+/*
+AprendendoEncapsulamento p1 = new AprendendoEncapsulamento("Bruno", 20, "138.258.424-52");
+Console.WriteLine($" Nome: {p1.Nome} \n Idade: {p1.Idade} \n CPF: {p1.GetCpf()}");
+*/
 
 // EXERCÍCIOS
 
