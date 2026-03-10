@@ -2,6 +2,7 @@
 using Passos_iniciais_com_.NET.Exercícios;
 using Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos;
 using Passos_iniciais_com_.NET.Models.POO;
+using Passos_iniciais_com_.NET.Models.POO.Herança;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -94,6 +95,24 @@ P1.Apresentar();
 /*
 AprendendoEncapsulamento p1 = new AprendendoEncapsulamento("Bruno", 20, "138.258.424-52");
 Console.WriteLine($" Nome: {p1.Nome} \n Idade: {p1.Idade} \n CPF: {p1.GetCpf()}");
+*/
+
+// Herança
+/*
+Aluno1 al1 = new Aluno1();
+al1.Nome = "Bruno";
+al1.idade = 20;
+al1.matricula = 17;
+al1.Nota = 10;
+
+Professor1 pr1 = new Professor1();
+pr1.Nome = "Alexiano";
+pr1.idade = 42;
+pr1.matricula = 19;
+pr1.Salario = 1700;
+
+al1.Apresentar();
+pr1.Apresentar();
 */
 
 // EXERCÍCIOS
