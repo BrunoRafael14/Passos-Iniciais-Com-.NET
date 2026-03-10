@@ -2,7 +2,7 @@
 using Passos_iniciais_com_.NET.Exercícios;
 using Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos;
 using Passos_iniciais_com_.NET.Models.POO;
-using Passos_iniciais_com_.NET.Models.POO.Herança;
+using Passos_iniciais_com_.NET.Models.POO.HerançaAndPolimorfismo;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -98,7 +98,7 @@ Console.WriteLine($" Nome: {p1.Nome} \n Idade: {p1.Idade} \n CPF: {p1.GetCpf()}"
 */
 
 // Herança
-/*
+
 Aluno1 al1 = new Aluno1();
 al1.Nome = "Bruno";
 al1.idade = 20;
@@ -113,7 +113,6 @@ pr1.Salario = 1700;
 
 al1.Apresentar();
 pr1.Apresentar();
-*/
 
 // EXERCÍCIOS
 
