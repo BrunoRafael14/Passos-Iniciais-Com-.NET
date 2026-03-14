@@ -3,6 +3,7 @@ using Passos_iniciais_com_.NET.Exercícios;
 using Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos;
 using Passos_iniciais_com_.NET.Models.POO;
 using Passos_iniciais_com_.NET.Models.POO.HerançaAndPolimorfismo;
+using Passos_iniciais_com_.NET.Models.POO.ClassesAbstratas;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -98,7 +99,7 @@ Console.WriteLine($" Nome: {p1.Nome} \n Idade: {p1.Idade} \n CPF: {p1.GetCpf()}"
 */
 
 // Herança
-
+/*
 Aluno1 al1 = new Aluno1();
 al1.Nome = "Bruno";
 al1.idade = 20;
@@ -113,6 +114,18 @@ pr1.Salario = 1700;
 
 al1.Apresentar();
 pr1.Apresentar();
+*/
+
+// Classes Abstratas
+/*
+JogadorBasquete jogador1 = new JogadorBasquete();
+jogador1.CadastrarInformacoes();
+jogador1.MostrarDadosAtleta();
+
+JogadorVolei jogador2 = new JogadorVolei();
+jogador2.CadastrarInformacoes();
+jogador2.MostrarDadosAtleta();
+*/
 
 // EXERCÍCIOS
 
