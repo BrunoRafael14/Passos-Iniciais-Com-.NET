@@ -4,6 +4,7 @@ using Passos_iniciais_com_.NET.Exercícios.CadastroDeAlunos;
 using Passos_iniciais_com_.NET.Models.POO;
 using Passos_iniciais_com_.NET.Models.POO.HerançaAndPolimorfismo;
 using Passos_iniciais_com_.NET.Models.POO.ClassesAbstratas;
+using Passos_iniciais_com_.NET.Models.POO.AprendendoInterfaces;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -126,6 +127,29 @@ JogadorVolei jogador2 = new JogadorVolei();
 jogador2.CadastrarInformacoes();
 jogador2.MostrarDadosAtleta();
 */
+
+// Interfaces
+
+Gato animal1 = new Gato();
+AguaViva animal2 = new AguaViva();
+EsponjaDoMar animal3 = new EsponjaDoMar();
+
+animal1.Especie = "Felis catus";
+animal2.Especie = "Aurelia aurita";
+animal3.Especie = "Euspongia officinalis";
+
+Console.WriteLine($"{animal1.Especie}");
+animal1.EmitirSom();
+animal1.Alimentar();
+animal1.Locomover();
+Console.WriteLine($"{animal2.Especie}");
+animal2.EmitirSom();
+animal2.Alimentar();
+animal2.Locomover();
+Console.WriteLine($"{animal3.Especie}");
+animal3.EmitirSom();
+animal3.Alimentar();
+animal3.Locomover();
 
 // EXERCÍCIOS
 
