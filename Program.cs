@@ -53,6 +53,12 @@ pessoa1.Apresentar();
 // -- Listas --
 //AprendendoListas.FazendoUmaLista();
 
+// -- HashSets -- 
+AprendendoHashSet.VerificandoHashSet();
+AprendendoHashSet.AdicionandoNúmeros(200);
+Console.WriteLine("------------------------------");
+AprendendoHashSet.VerificandoHashSet();
+
 // -- Matrizes --
 //AprendendoMatrizes.CriandoMatrizBidimensional();
 
@@ -129,7 +135,7 @@ jogador2.MostrarDadosAtleta();
 */
 
 // Interfaces
-
+/*
 Gato animal1 = new Gato();
 AguaViva animal2 = new AguaViva();
 EsponjaDoMar animal3 = new EsponjaDoMar();
@@ -150,6 +156,7 @@ Console.WriteLine($"{animal3.Especie}");
 animal3.EmitirSom();
 animal3.Alimentar();
 animal3.Locomover();
+*/
 
 // EXERCÍCIOS
 
