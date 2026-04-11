@@ -26,10 +26,5 @@ namespace Passos_iniciais_com_.NET.Models.SerializacaoComJSON
             var jsonSerializado = JsonSerializer.Serialize(arquivoDesserializado, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(caminho, jsonSerializado);
         }
-
-        public static void AdicionarInformacoesJSON()
-        {
-            
-        }
     }
 }
