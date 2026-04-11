@@ -5,6 +5,7 @@ using Passos_iniciais_com_.NET.Models.POO;
 using Passos_iniciais_com_.NET.Models.POO.HerançaAndPolimorfismo;
 using Passos_iniciais_com_.NET.Models.POO.ClassesAbstratas;
 using Passos_iniciais_com_.NET.Models.POO.AprendendoInterfaces;
+using Passos_iniciais_com_.NET.Models.SerializacaoComJSON;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -54,10 +55,10 @@ pessoa1.Apresentar();
 //AprendendoListas.FazendoUmaLista();
 
 // -- HashSets -- 
-AprendendoHashSet.VerificandoHashSet();
-AprendendoHashSet.AdicionandoNúmeros(200);
-Console.WriteLine("------------------------------");
-AprendendoHashSet.VerificandoHashSet();
+// AprendendoHashSet.VerificandoHashSet();
+// AprendendoHashSet.AdicionandoNúmeros(200);
+// Console.WriteLine("------------------------------");
+// AprendendoHashSet.VerificandoHashSet();
 
 // -- Matrizes --
 //AprendendoMatrizes.CriandoMatrizBidimensional();
@@ -90,6 +91,9 @@ AprendendoHashSet.VerificandoHashSet();
 // Dicionarios
 // AprendendoDicionarios.Dicionarios();
 
+// Serialização
+AprendendoSerializacao.Serializar("C:/Users/Bruno Rafael/Desktop/Estudar/C#/Passos iniciais com .NET/Models/SerializacaoComJSON/teste.json");
+
 // ----- Poo -----
 // Abstração
 /*
@@ -102,7 +106,7 @@ P1.Apresentar();
 // Encapsulamento
 /*
 AprendendoEncapsulamento p1 = new AprendendoEncapsulamento("Bruno", 20, "138.258.424-52");
-Console.WriteLine($" Nome: {p1.Nome} \n Idade: {p1.Idade} \n CPF: {p1.GetCpf()}");
+Console.WriteLine($" Nome: {p1.Nome} /n Idade: {p1.Idade} /n CPF: {p1.GetCpf()}");
 */
 
 // Herança
