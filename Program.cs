@@ -6,6 +6,7 @@ using Passos_iniciais_com_.NET.Models.POO.HerançaAndPolimorfismo;
 using Passos_iniciais_com_.NET.Models.POO.ClassesAbstratas;
 using Passos_iniciais_com_.NET.Models.POO.AprendendoInterfaces;
 using Passos_iniciais_com_.NET.Models.SerializacaoComJSON;
+using Passos_iniciais_com_.NET.Models.AsyncEAwait;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -92,7 +93,7 @@ pessoa1.Apresentar();
 // AprendendoDicionarios.Dicionarios();
 
 // Serialização
-AprendendoSerializacao.Serializar("C:/Users/Bruno Rafael/Desktop/Estudar/C#/Passos iniciais com .NET/Models/SerializacaoComJSON/teste.json");
+// AprendendoSerializacao.Serializar("C:/Users/Bruno Rafael/Desktop/Estudar/C#/Passos iniciais com .NET/Models/SerializacaoComJSON/teste.json");
 
 // ----- Poo -----
 // Abstração
@@ -161,6 +162,11 @@ animal3.EmitirSom();
 animal3.Alimentar();
 animal3.Locomover();
 */
+
+// Programação Assíncrona
+// AprendendoProgramacaoAssincrona.TestandoAsync();
+// AprendendoProgramacaoAssincrona.TestandoSemAsync();
+// Console.ReadKey(); // Método apenas para aguardar 
 
 // EXERCÍCIOS
 
