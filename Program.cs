@@ -7,6 +7,8 @@ using Passos_iniciais_com_.NET.Models.POO.ClassesAbstratas;
 using Passos_iniciais_com_.NET.Models.POO.AprendendoInterfaces;
 using Passos_iniciais_com_.NET.Models.SerializacaoComJSON;
 using Passos_iniciais_com_.NET.Models.AsyncEAwait;
+using Passos_iniciais_com_.NET.Models.Linq;
+using System.Linq;
 
 
 // Console.WriteLine("Hello, Bruno!");
@@ -167,6 +169,24 @@ animal3.Locomover();
 // AprendendoProgramacaoAssincrona.TestandoAsync();
 // AprendendoProgramacaoAssincrona.TestandoSemAsync();
 // Console.ReadKey(); // Método apenas para aguardar 
+
+// Linq
+
+var listaPessoas = new List<PessoaLinq>()
+{
+    new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
+    new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
+    new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2}
+};
+
+var listaEnderecos = new List<EnderecoLinq>()
+{
+    new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
+    new EnderecoLinq{id = 2, rua = "Santa Maria Gorete, 81", bairro = "Petrópolis", cidade = "Caruaru"},
+};
+
+// Sintaxe Expressão de Consulta
+ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
 
 // EXERCÍCIOS
 
