@@ -19,5 +19,25 @@ namespace Passos_iniciais_com_.NET.Models.Linq
                 Console.WriteLine($"{result.id} | {result.nome} | {result.idade} | {result.endereco_id}");
             }
         }
+
+        public static void ProjetandoDados(List<PessoaLinq> listaPessoas)
+        {
+            var resultado = from pessoa in listaPessoas select new { NomePessoa = pessoa.nome, pessoa.idade};
+
+            foreach (var result in resultado)
+            {
+                Console.WriteLine($"{result.NomePessoa} | {result.idade}");
+            }
+        }
+
+        public static void ProjetandoObjetosAnonimos(List<PessoaLinq> listaPessoas)
+        {
+            var resultado = from pessoa in listaPessoas select new PessoaPrivadaLinq { nome = pessoa.nome, idade = pessoa.idade + 10};
+
+            foreach (var result in resultado)
+            {
+                Console.WriteLine($"{result.nome} | {result.idade}");
+            }
+        }
     }
 }

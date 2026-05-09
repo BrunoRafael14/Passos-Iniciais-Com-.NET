@@ -178,7 +178,6 @@ var listaPessoas = new List<PessoaLinq>()
     new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
     new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2}
 };
-
 var listaEnderecos = new List<EnderecoLinq>()
 {
     new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
@@ -186,7 +185,11 @@ var listaEnderecos = new List<EnderecoLinq>()
 };
 
 // Sintaxe Expressão de Consulta
-ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
+// ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
+
+// Projecao De Dados
+ExecucaoLinq.ProjetandoObjetosAnonimos(listaPessoas);
+
 
 // EXERCÍCIOS
 
