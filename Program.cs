@@ -176,7 +176,9 @@ var listaPessoas = new List<PessoaLinq>()
 {
     new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
     new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
-    new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2}
+    new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2},
+    new PessoaLinq{id = 4, nome = "Toystiles", idade= 28, endereco_id = 2},
+    new PessoaLinq{id = 5, nome = "Xaun Mendes", idade= 21, endereco_id = 2}
 };
 var listaEnderecos = new List<EnderecoLinq>()
 {
@@ -188,8 +190,13 @@ var listaEnderecos = new List<EnderecoLinq>()
 // ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
 
 // Projecao De Dados
-ExecucaoLinq.ProjetandoObjetosAnonimos(listaPessoas);
+// ExecucaoLinq.ProjetandoObjetosAnonimos(listaPessoas);
 
+// Group By
+// ExecucaoLinq.GroupBy(listaPessoas);
+
+// Join
+ExecucaoLinq.Join(listaPessoas, listaEnderecos);
 
 // EXERCÍCIOS
 

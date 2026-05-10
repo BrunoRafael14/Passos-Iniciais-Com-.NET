@@ -39,5 +39,41 @@ namespace Passos_iniciais_com_.NET.Models.Linq
                 Console.WriteLine($"{result.nome} | {result.idade}");
             }
         }
+
+        public static void Join(List<PessoaLinq> listaPessoas)
+        {
+            
+        }
+
+        public static void GroupBy(List<PessoaLinq> listaPessoas)
+        {
+            var resultado = from pessoa in listaPessoas 
+                            group pessoa by pessoa.idade into agrupamentoIdade
+                            select agrupamentoIdade;
+            foreach (var result in resultado)
+            {
+                Console.WriteLine($"Idade: {result.Key}");
+                foreach (var registros in result)
+                {
+                    Console.WriteLine($"{registros.id} | {registros.nome}");
+                }
+            }
+        }
+
+        public static void Join(List<PessoaLinq> listaPessoas, List<EnderecoLinq> listaEnderecos)
+        {
+            var resultado = from pessoa in listaPessoas
+                            join endereco in listaEnderecos on pessoa.endereco_id equals endereco.id
+                            select new
+                            {
+                                pessoa,
+                                endereco
+                            };
+                            
+            foreach (var result in resultado)
+            {
+                Console.WriteLine($" Id: {result.pessoa.id} \n Nome: {result.pessoa.nome} \n Endereço: {result.endereco.rua}, {result.endereco.bairro}, {result.endereco.cidade}");
+            }
+        }
     }
 }
