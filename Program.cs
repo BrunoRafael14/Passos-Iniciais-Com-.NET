@@ -33,6 +33,8 @@ pessoa1.Apresentar();
 // int.TryParse(a, out int b);
 // Console.WriteLine(b);
 
+TiposDados.ConversaoExplicita();
+
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
 // OperadoresCondicionais.SwitchCase(100);
@@ -172,19 +174,19 @@ animal3.Locomover();
 
 // Linq
 
-var listaPessoas = new List<PessoaLinq>()
-{
-    new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
-    new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
-    new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2},
-    new PessoaLinq{id = 4, nome = "Toystiles", idade= 28, endereco_id = 2},
-    new PessoaLinq{id = 5, nome = "Xaun Mendes", idade= 21, endereco_id = 2}
-};
-var listaEnderecos = new List<EnderecoLinq>()
-{
-    new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
-    new EnderecoLinq{id = 2, rua = "Santa Maria Gorete, 81", bairro = "Petrópolis", cidade = "Caruaru"},
-};
+// var listaPessoas = new List<PessoaLinq>()
+// {
+//     new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
+//     new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
+//     new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2},
+//     new PessoaLinq{id = 4, nome = "Toystiles", idade= 28, endereco_id = 2},
+//     new PessoaLinq{id = 5, nome = "Xaun Mendes", idade= 21, endereco_id = 2}
+// };
+// var listaEnderecos = new List<EnderecoLinq>()
+// {
+//     new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
+//     new EnderecoLinq{id = 2, rua = "Santa Maria Gorete, 81", bairro = "Petrópolis", cidade = "Caruaru"},
+// };
 
 // Sintaxe Expressão de Consulta
 // ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
@@ -196,7 +198,7 @@ var listaEnderecos = new List<EnderecoLinq>()
 // ExecucaoLinq.GroupBy(listaPessoas);
 
 // Join
-ExecucaoLinq.Join(listaPessoas, listaEnderecos);
+// ExecucaoLinq.Join(listaPessoas, listaEnderecos);
 
 // EXERCÍCIOS
 
