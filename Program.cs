@@ -33,7 +33,7 @@ pessoa1.Apresentar();
 // int.TryParse(a, out int b);
 // Console.WriteLine(b);
 
-TiposDados.ConversaoExplicita();
+// TiposDados.ConversaoExplicita();
 
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
@@ -84,6 +84,7 @@ TiposDados.ConversaoExplicita();
 // ManipulacaoStrings.Concatenacao();
 // ManipulacaoStrings.Interpolacao();
 // Formatacoes.ValoresMonetarios();
+ManipulacaoStrings.StringBuilderTeste();
 
 // Leitura de Arquivos
 // LeituraDeArquivos.LendoArquivo();
