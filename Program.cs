@@ -39,7 +39,8 @@ pessoa1.Apresentar();
 // TiposDados.ConversaoExplicita();
 
 // Dados por referência
-TiposPorReferencia.TestandoTiposPorReferencia();
+// TiposPorReferencia.TestandoTiposPorReferencia();
+ExpressoesLambda.TestandoExpressoesLambda();
 
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
