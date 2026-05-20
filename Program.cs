@@ -27,6 +27,8 @@ pessoa1.Idade = 21;
 pessoa1.Apresentar();
 */
 
+// Tipos de dados
+
 // TiposDados.MostrarDados();
 
 // Conversão de Tipos
@@ -35,6 +37,9 @@ pessoa1.Apresentar();
 // Console.WriteLine(b);
 
 // TiposDados.ConversaoExplicita();
+
+// Dados por referência
+TiposPorReferencia.TestandoTiposPorReferencia();
 
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
@@ -207,7 +212,7 @@ var listaEnderecos = new List<EnderecoLinq>()
 // First
 // First.TestandoFirst(listaPessoas);
 // First.TestandoFirstOrDefault(listaPessoas);
-AprendendoSingle.AprendizadoSingle(listaPessoas);
+// AprendendoSingle.AprendizadoSingle(listaPessoas);
 
 // EXERCÍCIOS
 
