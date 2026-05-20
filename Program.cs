@@ -8,6 +8,7 @@ using Passos_iniciais_com_.NET.Models.POO.AprendendoInterfaces;
 using Passos_iniciais_com_.NET.Models.SerializacaoComJSON;
 using Passos_iniciais_com_.NET.Models.AsyncEAwait;
 using Passos_iniciais_com_.NET.Models.Linq;
+using Passos_iniciais_com_.NET.Models.Linq.SintaxeDeMetodo;
 using System.Linq;
 
 
@@ -84,7 +85,7 @@ pessoa1.Apresentar();
 // ManipulacaoStrings.Concatenacao();
 // ManipulacaoStrings.Interpolacao();
 // Formatacoes.ValoresMonetarios();
-ManipulacaoStrings.StringBuilderTeste();
+// ManipulacaoStrings.StringBuilderTeste();
 
 // Leitura de Arquivos
 // LeituraDeArquivos.LendoArquivo();
@@ -175,19 +176,19 @@ animal3.Locomover();
 
 // Linq
 
-// var listaPessoas = new List<PessoaLinq>()
-// {
-//     new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
-//     new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
-//     new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2},
-//     new PessoaLinq{id = 4, nome = "Toystiles", idade= 28, endereco_id = 2},
-//     new PessoaLinq{id = 5, nome = "Xaun Mendes", idade= 21, endereco_id = 2}
-// };
-// var listaEnderecos = new List<EnderecoLinq>()
-// {
-//     new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
-//     new EnderecoLinq{id = 2, rua = "Santa Maria Gorete, 81", bairro = "Petrópolis", cidade = "Caruaru"},
-// };
+var listaPessoas = new List<PessoaLinq>()
+{
+    new PessoaLinq{id = 1, nome = "Alexiano", idade= 21, endereco_id = 1},
+    new PessoaLinq{id = 2, nome = "Athinos", idade= 31, endereco_id = 1},
+    new PessoaLinq{id = 3, nome = "Expartan", idade= 28, endereco_id = 2},
+    new PessoaLinq{id = 4, nome = "Toystiles", idade= 28, endereco_id = 2},
+    new PessoaLinq{id = 5, nome = "Xaun Mendes", idade= 21, endereco_id = 2}
+};
+var listaEnderecos = new List<EnderecoLinq>()
+{
+    new EnderecoLinq{id = 1, rua = "Santa Maria Gorete, 94", bairro = "Petrópolis", cidade = "Caruaru"},
+    new EnderecoLinq{id = 2, rua = "Santa Maria Gorete, 81", bairro = "Petrópolis", cidade = "Caruaru"},
+};
 
 // Sintaxe Expressão de Consulta
 // ExecucaoLinq.ExecucaoSintaxeExpressao(listaPessoas);
@@ -200,6 +201,13 @@ animal3.Locomover();
 
 // Join
 // ExecucaoLinq.Join(listaPessoas, listaEnderecos);
+
+
+// Sintaxe De Metodo
+// First
+// First.TestandoFirst(listaPessoas);
+// First.TestandoFirstOrDefault(listaPessoas);
+AprendendoSingle.AprendizadoSingle(listaPessoas);
 
 // EXERCÍCIOS
 
