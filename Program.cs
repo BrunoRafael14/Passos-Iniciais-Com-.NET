@@ -219,6 +219,7 @@ var listaEnderecos = new List<EnderecoLinq>()
 // AprendendoSintaxeDeMetodo.TestandoOrderBy(listaPessoas);
 // AprendendoSintaxeDeMetodo.TestandoReverse(listaPessoas);
 // AprendendoSintaxeDeMetodo.TestandoSelect(listaPessoas);
+AprendendoSkipETake.TestandoSkipETake(listaPessoas);
 
  var Lista2Teste = new List<ListaSelectMany>
         {
@@ -227,7 +228,7 @@ var listaEnderecos = new List<EnderecoLinq>()
             new ListaSelectMany {nome = "C", textos = new List<string> {"CCCCCCCCCC", "cccccccccccc"}}
         };
 
-AprendendoSelectMany.TesteSelectMany(Lista2Teste);
+// AprendendoSelectMany.TesteSelectMany(Lista2Teste);
 
 // EXERCÍCIOS
 
