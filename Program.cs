@@ -9,6 +9,7 @@ using Passos_iniciais_com_.NET.Models.SerializacaoComJSON;
 using Passos_iniciais_com_.NET.Models.AsyncEAwait;
 using Passos_iniciais_com_.NET.Models.Linq;
 using Passos_iniciais_com_.NET.Models.Linq.SintaxeDeMetodo;
+using Passos_iniciais_com_.NET.Models.Linq.SintaxeDeMetodo.SelectMany;
 using System.Linq;
 
 
@@ -40,7 +41,7 @@ pessoa1.Apresentar();
 
 // Dados por referência
 // TiposPorReferencia.TestandoTiposPorReferencia();
-ExpressoesLambda.TestandoExpressoesLambda();
+// ExpressoesLambda.TestandoExpressoesLambda();
 
 //Operadores Condicionais
 //OperadoresCondicionais.Condicionais01(5);
@@ -214,6 +215,19 @@ var listaEnderecos = new List<EnderecoLinq>()
 // First.TestandoFirst(listaPessoas);
 // First.TestandoFirstOrDefault(listaPessoas);
 // AprendendoSingle.AprendizadoSingle(listaPessoas);
+// AprendendoSintaxeDeMetodo.TestandoWhere(listaPessoas);
+// AprendendoSintaxeDeMetodo.TestandoOrderBy(listaPessoas);
+// AprendendoSintaxeDeMetodo.TestandoReverse(listaPessoas);
+// AprendendoSintaxeDeMetodo.TestandoSelect(listaPessoas);
+
+ var Lista2Teste = new List<ListaSelectMany>
+        {
+            new ListaSelectMany {nome = "A", textos = new List<string> {"AAAAAAAAAA", "aaaaaaaaaaaa"}}, 
+            new ListaSelectMany {nome = "B", textos = new List<string> {"BBBBBBBBBB", "bbbbbbbbbbbb"}},
+            new ListaSelectMany {nome = "C", textos = new List<string> {"CCCCCCCCCC", "cccccccccccc"}}
+        };
+
+AprendendoSelectMany.TesteSelectMany(Lista2Teste);
 
 // EXERCÍCIOS
 

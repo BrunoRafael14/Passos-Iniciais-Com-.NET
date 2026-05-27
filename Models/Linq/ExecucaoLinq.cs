@@ -7,7 +7,7 @@ namespace Passos_iniciais_com_.NET.Models.Linq
 {
     public class ExecucaoLinq
     {
-        public static void ExecucaoSintaxeExpressao(List<PessoaLinq> listaPessoas)
+        public static void ExecucaoSintaxeExpressaoMetodoConsulta(List<PessoaLinq> listaPessoas)
         {
             var resultado = from pessoa in listaPessoas
                 // where pessoa.nome!.ToLower().Substring(0,2) == "Al".ToLower()
@@ -20,7 +20,7 @@ namespace Passos_iniciais_com_.NET.Models.Linq
             }
         }
 
-        public static void ProjetandoDados(List<PessoaLinq> listaPessoas)
+        public static void ProjetandoDadosMetodoConsulta(List<PessoaLinq> listaPessoas)
         {
             var resultado = from pessoa in listaPessoas select new { NomePessoa = pessoa.nome, pessoa.idade};
 
@@ -30,7 +30,7 @@ namespace Passos_iniciais_com_.NET.Models.Linq
             }
         }
 
-        public static void ProjetandoObjetosAnonimos(List<PessoaLinq> listaPessoas)
+        public static void ProjetandoObjetosAnonimosMetodoConsulta(List<PessoaLinq> listaPessoas)
         {
             var resultado = from pessoa in listaPessoas select new PessoaPrivadaLinq { nome = pessoa.nome, idade = pessoa.idade + 10};
 
@@ -40,12 +40,7 @@ namespace Passos_iniciais_com_.NET.Models.Linq
             }
         }
 
-        public static void Join(List<PessoaLinq> listaPessoas)
-        {
-            
-        }
-
-        public static void GroupBy(List<PessoaLinq> listaPessoas)
+        public static void GroupByMetodoConsulta(List<PessoaLinq> listaPessoas)
         {
             var resultado = from pessoa in listaPessoas 
                             group pessoa by pessoa.idade into agrupamentoIdade
@@ -60,7 +55,7 @@ namespace Passos_iniciais_com_.NET.Models.Linq
             }
         }
 
-        public static void Join(List<PessoaLinq> listaPessoas, List<EnderecoLinq> listaEnderecos)
+        public static void JoinMetodoConsulta(List<PessoaLinq> listaPessoas, List<EnderecoLinq> listaEnderecos)
         {
             var resultado = from pessoa in listaPessoas
                             join endereco in listaEnderecos on pessoa.endereco_id equals endereco.id
