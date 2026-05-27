@@ -219,7 +219,10 @@ var listaEnderecos = new List<EnderecoLinq>()
 // AprendendoSintaxeDeMetodo.TestandoOrderBy(listaPessoas);
 // AprendendoSintaxeDeMetodo.TestandoReverse(listaPessoas);
 // AprendendoSintaxeDeMetodo.TestandoSelect(listaPessoas);
-AprendendoSkipETake.TestandoSkipETake(listaPessoas);
+// AprendendoSkipETake.TestandoSkipETake(listaPessoas);
+// AprendendoMetodosDeContas.TestandoSum(listaPessoas);
+// AprendendoMetodosDeContas.TestandoAverage(listaPessoas);
+// AprendendoMetodosDeContas.TestandoCount(listaPessoas);
 
  var Lista2Teste = new List<ListaSelectMany>
         {
