@@ -233,6 +233,10 @@ var listaEnderecos = new List<EnderecoLinq>()
 
 // AprendendoSelectMany.TesteSelectMany(Lista2Teste);
 
+// Aprendendo Parâmetros
+// int idadeKek = 21;
+// AprendendoParametros.ParametrosNomeadosEReferencial(nome: "Alexiano", idade: ref idadeKek);
+
 // EXERCÍCIOS
 
 // Exercicio Calculadora
