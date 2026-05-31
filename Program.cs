@@ -237,6 +237,11 @@ var listaEnderecos = new List<EnderecoLinq>()
 // int idadeKek = 21;
 // AprendendoParametros.ParametrosNomeadosEReferencial(nome: "Alexiano", idade: ref idadeKek);
 
+// Aprendendo Controle de loops
+// AprendendoControledeLoop.TestandoContinue();
+AprendendoControledeLoop.TestandoBreak();
+
+
 // EXERCÍCIOS
 
 // Exercicio Calculadora
