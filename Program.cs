@@ -97,6 +97,18 @@ pessoa1.Apresentar();
 // Leitura de Arquivos
 // LeituraDeArquivos.LendoArquivo();
 // LeituraDeArquivos.VendoThrow2();
+// try
+// {
+//     LeituraDeArquivos.TestandoExceptionsPersonalizadas();
+// }
+// catch
+// {
+//     Console.WriteLine("sei la");
+// }
+
+
+
+
 
 // Queue e Stack
 // AprendoFilasEPilhas.Filas();
@@ -239,7 +251,7 @@ var listaEnderecos = new List<EnderecoLinq>()
 
 // Aprendendo Controle de loops
 // AprendendoControledeLoop.TestandoContinue();
-AprendendoControledeLoop.TestandoBreak();
+// AprendendoControledeLoop.TestandoBreak();
 
 
 // EXERCÍCIOS
